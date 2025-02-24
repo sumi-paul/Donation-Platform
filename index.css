@@ -4,17 +4,17 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 .fix{overflow:hidden}
 .main{width:100%; display:block}
 
-.upperHeader{background:#edecf2; width:100%; height:37px; overflow:hidden; font-family:Agency FB}
+.upperHeader{background:#6752a6; width:100%; height:37px; overflow:hidden; font-family:Agency FB}
 .upperHeader ul{list-style:none; text-align:center; margin-top:6px}
 .upperHeader ul li{display:inline-block}
 .upperHeader ul li a{display:block; color:#91E6F4; text-decoration:none; font-size:15px; width:155px; padding:2px}
 .upperHeader ul li a:hover{color:#ffffff}
 
-.header{background:#e3e9e4; height:160px; overflow:hidden}
+.header{background:#d8dbd9; height:160px; overflow:hidden}
 .header ul{list-style:none; text-align:center}
 .header ul li{display:inline-block}
 .header ul li a{display:block;text-decoration:none}
-.header ul li a:hover{color:#f3efec}
+.header ul li a:hover{color:#CA824B}
 
 .headerPic1{float:left;margin-left:9%; padding:0px}
 .headerPic1Text{color:#FFDF45}
@@ -29,7 +29,7 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 
 
 
-.mainmenu{background:#ffffff; height:40px; overflow:hidden; font-family:Agency FB;}
+.mainmenu{background:#afa9f9; height:40px; overflow:hidden; font-family:Agency FB;}
 .mainmenu ul{list-style:none; text-align:center; margin-top:8px}
 .mainmenu ul li{display:inline-block}
 .mainmenu ul li a{display:block; color:#ffffff; text-decoration:none; font-size:20px; width:210px}
@@ -114,6 +114,10 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 
 	.footer{padding:7px;background:#030303;color:#ffffff; text-align:center}
 }
+
+
+
+
 @media screen and (max-width:1080px){
 	
 	*{margin:0;padding:0}
@@ -412,7 +416,7 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 	.follow img{width:17px; height:22px; padding:0px 5px}
 
 
-	.footer{padding:7px;background:#030303;color:#ffffff; text-align:center}
+	.footer{padding:7px;background:#8b95c4;color:#ffffff; text-align:center}
 }
 
 
@@ -458,7 +462,7 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 
 
 	.slider{width:100%; background:#F6E7C8}
-	.nivoSlider{font-size:harlow solid italic; font-size:9px; text-align:center}
+	.nivoSlider{font-size:harlow solid normal; font-size:9px; text-align:center}
 	.nivoSlider img{height:210px}
 
 
@@ -512,7 +516,7 @@ body{font-family:Arial; font-size:16px; line-height:20px; color:#FFFFFF;}
 
 
 
-	.mainmenu{background:#EA0021; height:19px; overflow:hidden; font-family:Agency FB;}
+	.mainmenu{background:#b798e8; height:19px; overflow:hidden; font-family:Agency FB;}
 	.mainmenu ul{list-style:none; text-align:center; margin-top:4px}
 	.mainmenu ul li{display:inline-block}
 	.mainmenu ul li a{display:block; color:#ffffff; text-decoration:none; font-size:7px; width:65px}
