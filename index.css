@@ -29,6 +29,13 @@ a {
     text-align: center;
 }
 
+.upperHeader ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .upperHeader ul li {
     color: white;
     font-weight: bold;
@@ -36,21 +43,46 @@ a {
 
 .header {
     background-color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px;
     border-bottom: 2px solid #0073e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .logo-container img {
+    width: 50px;
+    height: auto;
 }
 
 .header h2 {
     margin: 0;
     color: #0073e6;
+    font-size: 24px;
 }
 
-.headerText {
-    font-size: 18px;
-    font-style: italic;
-    color: #555;
-    margin-top: 10px;
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav a {
+    font-weight: bold;
+    color: #0073e6;
+    padding: 10px 15px;
+}
+
+.header-nav a:hover {
+    background-color: #005bb5;
+    color: white;
+    border-radius: 5px;
 }
 
 /* Navigation Menu */
@@ -58,6 +90,12 @@ a {
     background-color: #0073e6;
     padding: 10px 0;
     text-align: center;
+}
+
+.mainmenu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .mainmenu ul li a {
