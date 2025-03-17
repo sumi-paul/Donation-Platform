@@ -1,20 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" />
 		<meta charset="UTF-8" />
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			
 		<title>CareCycle</title>
 		
         <link href="images/logo.ico" rel="icon" type="image/x-icon" />
 		
-		<link href="index.css" rel="stylesheet" type="text/css"/>
-		
-		<link href="css/bar/bar.css" rel="stylesheet" type="text/css"/>
-		<link href="css/dark/dark.css" rel="stylesheet" type="text/css"/>
-		<link href="css/default/default.css" rel="stylesheet" type="text/css"/>
-		<link href="css/light/light.css" rel="stylesheet" type="text/css"/>
-		<link href="css/nivo-slider.css" rel="stylesheet" type="text/css"/>
+		<link href="memberRegistration.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
 		<div class="fix main">
@@ -31,7 +28,7 @@
 					<li class="headerPic1">
 						<table>
 							<tr>
-								<td><a href="index.html"><img src="images/download 01.png" width="105px"/></a></td>
+								<td><a href="index.html"><img src="images/1111.jpg" width="105px"/></a></td>
 							</tr>
 							<tr class="headerPic1Text">
 								<td><h2>CareCycle</h2></td>
@@ -79,16 +76,81 @@
 				</ul>
 			</div>
 			
-			<div class="fix slider" >
-				<div class="slider-wrapper theme-default">
-					<div id="slider" class="nivoSlider">
-						<img src="images/1015.jpg" alt="" title=""/>
-						<img src="images/1014.jpg" alt="" title=""/>
-						<img src="images/1012.jpg" alt="" title=""/>
-						<img src="images/1011.jpg" alt="" title=""/>
-					</div>
+			
+			
+			
+			<div class="fix maincontent">
+				<div class="content">
+					
+					<form action="memberInsert.php" method="POST" enctype="multipart/form-data">
+						<h2><strong>Registration For Membership</strong></h2><br><hr><br>
+					
+						<p>Full Name:</p>
+						<input type="text" name="fullName" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Father's Name:</p>
+						<input type="text" name="father" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Mother's Name:</p>
+						<input type="text" name="mother" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Username:</p>
+						<input type="text" name="username" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Password:</p>
+						<input type="password" name="password" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Age:</p>
+						<input type="text" name="age" required maxlength="3" size="47px" class="inputSize" onkeypress="isInputNumber(event)"><br><br>
+						
+						<p>Gender:</p><br>
+						
+						<div class="radioButton">
+							<input type="radio" name="gender" value="male">Male
+							<input type="radio" name="gender" value="female">Female<br><br>
+						</div>
+						
+						<p>Profession:</p>
+						<input type="text" name="profession" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Educational Background:</p>
+						<input type="text" name="education" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Permanent Address:</p>
+						<input type="text" name="perAddr" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Present Address:</p>
+						<input type="text" name="preAddr" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Phone No:</p>
+						<input type="text" name="phone" value="+8801" required maxlength="14" size="47px" onkeypress="isInputNumber(event)" class="inputSize"><br><br>
+						
+						<p>Blood Group:</p>
+						<input type="text" name="bloodGroup" required maxlength="3" size="47px" class="inputSize"><br><br>
+
+						<p>Religion:</p>
+						<input type="text" name="religion" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Weight:</p>
+						<input type="text" name="weight" required maxlength="3" size="47px" class="inputSize" onkeypress="isInputNumber(event)"><br><br>
+
+						<p>Nationality:</p>
+						<input type="text" name="nationality" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Upload Image:</p>
+						<input type="file" name="uploadfile" value="Upload Image" class="inputSize"><br><br>
+						
+						
+						<div class="submit">
+							<input type="submit" name="submit" value="Submit"><br><br>
+						</div>
+						
+					</form>
+					
 				</div>
 			</div>
+			
+			
 			
 			<div class="bottom">
 				<table class="bottomTable">
@@ -120,6 +182,6 @@
 				<center><p>&copy; 2025. CareCycle. All Rights Reserved</p></center>
 			</div>
 			
-		</div>	
+		</div>
 	</body>
 </html>
