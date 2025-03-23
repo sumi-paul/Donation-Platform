@@ -1,0 +1,189 @@
+*{margin:0;padding:0}
+body{font-family:Arial; font-size:16px; line-height:20px; color:#000000;} /* Changed text color to black for better readability on white background */
+
+.fix{overflow:hidden}
+.main{width:100%; display:block}
+
+.upperHeader{background:#0000FF; width:100%; height:37px; overflow:hidden; font-family:Agency FB} /* Changed background to blue */
+.upperHeader ul{list-style:none; text-align:center; margin-top:6px}
+.upperHeader ul li{display:inline-block}
+.upperHeader ul li a{display:block; color:#FFFFFF; text-decoration:none; font-size:15px; width:155px; padding:2px} /* Changed text color to white */
+.upperHeader ul li a:hover{color:#ADD8E6} /* Changed hover color to light blue */
+
+.header{background:#FFFFFF; height:160px; overflow:hidden} /* Changed background to white */
+.header ul{list-style:none; text-align:center}
+.header ul li{display:inline-block}
+.header ul li a{display:block;text-decoration:none}
+.header ul li a:hover{color:#0000FF} /* Changed hover color to blue */
+
+.headerPic1{float:left;margin-left:9%; padding:0px}
+.headerPic1Text{color:#0000FF} /* Changed text color to blue */
+
+.homeGroupLog{float:center;text-align:center; margin-top:55px; font-size:17px; margin-left:42px}
+.headerPic2{padding:0px 35px}
+.headerPic3{padding:0px 35px}
+.headerPic4{padding:0px 35px}
+
+.headerText{float:right; margin-top:40px; margin-right:110px}
+.header h3{color:#0000FF;font-size:23px;font-family:Agency FB; padding:10px} /* Changed text color to blue */
+
+.mainmenu{background:#0000FF; height:40px; overflow:hidden; font-family:Agency FB;} /* Changed background to blue */
+.mainmenu ul{list-style:none; text-align:center; margin-top:8px}
+.mainmenu ul li{display:inline-block}
+.mainmenu ul li a{display:block; color:#FFFFFF; text-decoration:none; font-size:20px; width:210px} /* Changed text color to white */
+.mainmenu ul li a:hover{color:#ADD8E6} /* Changed hover color to light blue */
+
+.about{color:#000000; font-family:Times New Roman; text-align:center; margin-left:15%; margin-right:15%; margin-bottom:20px}
+.about h1{padding:10px 10px 10px 10px; text-align:center; margin-bottom:15px; margin-top:15px}
+.about h3{text-align:justify; padding:7px 0px 7px 0px; line-height:40px}
+.about p{font-size:19px; padding:7px 0px 7px 0px; text-align:justify; line-height:28px}
+
+.listTable tr td{width:25%; padding:0px 25px 0px 25px}
+.list1 ul li{margin-left:20px; list-style:square}
+
+.bottom{color:#000000; font-family:Courier New; background:#FFFFFF;} /* Changed background to white */
+.bottomTable{margin-left:5%; margin-right:5%}
+.bottomRow1{text-align:center}
+.bottomRow2{}
+.bottomRow1 td{width:30%; padding:5px 15px 5px 15px}
+.bottomRow2 td{width:30%; padding:5px 15px 5px 15px}
+.googleMap img{height:100px; width:60%; margin-left:20%; margin-right:20%}
+.follow img{width:35px; height:35px; padding:0px 11px}
+
+.footer{padding:10px;background:#0000FF;color:#FFFFFF; text-align:center} /* Changed background to blue and text to white */
+
+@media screen and (max-width:1280px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:1080px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:720px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:640px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:480px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:414px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:393px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
+
+@media screen and (max-width:360px){
+    body{color:#000000;}
+    .upperHeader{background:#0000FF;}
+    .upperHeader ul li a{color:#FFFFFF;}
+    .upperHeader ul li a:hover{color:#ADD8E6;}
+    .header{background:#FFFFFF;}
+    .header ul li a:hover{color:#0000FF;}
+    .headerPic1Text{color:#0000FF;}
+    .header h3{color:#0000FF;}
+    .mainmenu{background:#0000FF;}
+    .mainmenu ul li a{color:#FFFFFF;}
+    .mainmenu ul li a:hover{color:#ADD8E6;}
+    .about{color:#000000;}
+    .bottom{background:#FFFFFF;}
+    .footer{background:#0000FF; color:#FFFFFF;}
+}
