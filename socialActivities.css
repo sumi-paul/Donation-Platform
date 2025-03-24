@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	color: #0000FF;
+	background: #FFFFFF;
+  }
+  
+  .fix {
+	overflow: hidden;
+  }
+  .main {
+	width: 100%;
+	display: block;
+  }
+  
+  /* Blue header */
+  .upperHeader {
+	background: #0000FF;
+	width: 100%;
+	height: 37px;
+	overflow: hidden;
+	font-family: Agency FB;
+  }
+  .upperHeader ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 6px;
+  }
+  .upperHeader ul li {
+	display: inline-block;
+  }
+  .upperHeader ul li a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+	width: 155px;
+	padding: 2px;
+  }
+  .upperHeader ul li a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+  }
+  
+  /* White header with blue text */
+  .header {
+	background: #FFFFFF;
+	height: 160px;
+	overflow: hidden;
+	border-bottom: 2px solid #0000FF;
+  }
+  .header ul {
+	list-style: none;
+	text-align: center;
+  }
+  .header ul li {
+	display: inline-block;
+  }
+  .header ul li a {
+	display: block;
+	text-decoration: none;
+	color: #0000FF;
+  }
+  
+  .headerPic1 {
+	float: left;
+	margin-left: 9%;
+	padding: 0px;
+  }
+  .headerPic1Text {
+	color: #0000FF;
+  }
+  
+  .homeGroupLog {
+	float: center;
+	text-align: center;
+	margin-top: 55px;
+	font-size: 17px;
+	margin-left: 42px;
+  }
+  .headerPic2 {
+	padding: 0px 35px;
+  }
+  .headerPic3 {
+	padding: 0px 35px;
+  }
+  .headerPic4 {
+	padding: 0px 35px;
+  }
+  
+  .headerText {
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+  }
+  .header h3 {
+	color: #0000FF;
+	font-size: 23px;
+	font-family: Agency FB;
+	padding: 10px;
+  }
+  
+  /* Blue menu */
+  .mainmenu {
+	background: #0000FF;
+	height: 40px;
+	overflow: hidden;
+	font-family: Agency FB;
+  }
+  .mainmenu ul {
+	list-style: none;
+	text-align: center;
+	margin-top: 8px;
+  }
+  .mainmenu ul li {
+	display: inline-block;
+  }
+  .mainmenu ul li a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	width: 210px;
+  }
+  .mainmenu ul li a:hover {
+	background: #0000CC;
+  }
+  
+  /* Blue tooltip with white text */
+  .tooltip {
+	position: relative;
+	z-index: 20;
+  }
+  .tooltip span {
+	display: none;
+  }
+  .tooltip:hover {
+	z-index: 21;
+  }
+  .tooltip:hover span {
+	display: block;
+	padding: 10px;
+	color: #FFFFFF;
+	font-family: Arial Black;
+	background: #0000FF;
+	font-size: 22px;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 6px;
+	top: -200px;
+	left: 31%;
+  }
+  
+  /* White content with blue text */
+  .about {
+	color: #0000FF;
+	font-family: Times New Roman;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	border: 2px solid #0000FF;
+  }
+  .about h1 {
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+  }
+  .about h3 {
+	text-align: justify;
+	padding: 7px 0px 7px 0px;
+	line-height: 40px;
+  }
+  .about p {
+	font-size: 19px;
+	padding: 7px 0px 7px 0px;
+	text-align: justify;
+	line-height: 28px;
+  }
+  
+  .listTable tr td {
+	width: 25%;
+	padding: 0px 25px 0px 25px;
+  }
+  .listTable tr td ul {
+	list-style: none;
+  }
+  .listTable tr td ul li a {
+	text-decoration: none;
+	color: #0000FF;
+  }
+  .list1 ul li {
+	margin-left: 20px;
+	list-style: circle;
+	color: #0000FF;
+  }
+  
+  /* White sections with blue borders */
+  .div1 {
+	width: 100%;
+	background: #FFFFFF;
+	border-top: 2px solid #0000FF;
+	border-bottom: 2px solid #0000FF;
+  }
+  .bottomImage {
+	margin-left: 15%;
+	margin-right: 15%;
+  }
+  .imageLeft {
+	float: left;
+	width: 48.5%;
+	padding-right: 1.5%;
+	padding-top: 17px;
+	padding-bottom: 10px;
+  }
+  .imageRight {
+	float: right;
+	width: 48.5%;
+	padding-left: 1.5%;
+	padding-top: 17px;
+	padding-bottom: 10px;
+  }
+  
+  .imageLeft img {
+	height: 370px;
+	width: 100%;
+	border: 2px solid #0000FF;
+  }
+  .imageRight img {
+	height: 370px;
+	width: 100%;
+	border: 2px solid #0000FF;
+  }
+  
+  .bottom {
+	color: #0000FF;
+	font-family: Courier New;
+	background: #FFFFFF;
+	border-top: 2px solid #0000FF;
+  }
+  .bottomTable {
+	margin-left: 5%;
+	margin-right: 5%;
+  }
+  .bottomRow1 {
+	text-align: center;
+  }
+  .bottomRow2 {
+  }
+  .bottomRow1 td {
+	width: 30%;
+	padding: 5px 15px 5px 15px;
+  }
+  .bottomRow2 td {
+	width: 30%;
+	padding: 5px 15px 5px 15px;
+  }
+  .googleMap img {
+	height: 100px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 2px solid #0000FF;
+  }
+  .follow img {
+	width: 35px;
+	height: 35px;
+	padding: 0px 11px;
+  }
+  
+  /* Blue footer */
+  .footer {
+	padding: 10px;
+	background: #0000FF;
+	color: #FFFFFF;
+	text-align: center;
+  }
+  
+  /* Media queries - same color scheme */
+  @media screen and (max-width: 1280px) {
+	body {
+	  color: #0000FF;
+	  background: #FFFFFF;
+	}
+	.upperHeader {
+	  background: #0000FF;
+	}
+	.header {
+	  background: #FFFFFF;
+	  border-bottom: 2px solid #0000FF;
+	}
+	.mainmenu {
+	  background: #0000FF;
+	}
+	/* ... and so on for all elements ... */
+  }
