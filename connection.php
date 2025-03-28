@@ -5,13 +5,15 @@
 	$password = "2hin@bc0646576";
 	$dbname = "carecycle";
 
-	$conn = carecyle_connect($servername, $username, $password, $dbname);
+	// Correct the function to mysqli_connect
+	$conn = mysqli_connect($servername, $username, $password, $dbname);
 
+	// Check the connection
 	if($conn){
-		echo "";
+		echo "Connected successfully";
 	}
 	else{
-		die("Connection failed because ".carecyle_connect_error());
+		die("Connection failed because: " . mysqli_connect_error());
 	}
 
 ?>
