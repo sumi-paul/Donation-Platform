@@ -129,7 +129,7 @@ $msg="Record deleted Successfully ";
 											<th>Email</th>
 											<th>Age</th>
 											<th>Gender</th>
-											<th>Blood Group</th>
+											<th>Donation Items</th>
 											<th>address</th>
 											<th>Message </th>
 											<th>action </th>
@@ -143,7 +143,7 @@ $msg="Record deleted Successfully ";
 											<th>Email</th>
 											<th>Age</th>
 											<th>Gender</th>
-											<th>Blood Group</th>
+											<th>Donation Items</th>
 											<th>address</th>
 											<th>Message </th>
 											<th>action </th>
@@ -167,7 +167,7 @@ foreach($results as $result)
 											<td><?php echo htmlentities($result->EmailId);?></td>
 											<td><?php echo htmlentities($result->Gender);?></td>
 											<td><?php echo htmlentities($result->Age);?></td>
-											<td><?php echo htmlentities($result->BloodGroup);?></td>
+											<td><?php echo htmlentities($result->Donation items);?></td>
 											<td><?php echo htmlentities($result->Address);?></td>
 											<td><?php echo htmlentities($result->Message);?></td>
 										
