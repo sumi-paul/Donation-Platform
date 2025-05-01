@@ -7,7 +7,7 @@ include('includes/config.php');
 <html lang="zxx">
 
 <head>
-	<title>Blood Bank Donar Management System | About Us </title>
+	<title>CareCycle | About Us </title>
 	<!-- Meta tag Keywords -->
 	
 	<script>
@@ -70,7 +70,7 @@ include('includes/config.php');
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="py-3">Our mission is to create a centralized platform that connects blood donors with those in need, making the process of blood donation more efficient and accessible. Through our website, we aim to promote awareness and educate the public on the importance of regular blood donation. By leveraging technology to streamline the process and connect donors with recipients in real-time, we hope to make a positive impact on the lives of those in need of life-saving blood transfusions.</p>
+				<p class="py-3">Our mission is to create a compassionate platform that connects generous donors with individuals in urgent need. Whether it’s providing life-saving blood, food, financial assistance, winter clothing, or other essential supplies, we aim to deliver help quickly, smoothly, and with care. Through our technology-driven system, donors can offer various forms of support, and recipients can easily access the aid they need in times of emergency or hardship. We believe that even a small act of kindness can create a meaningful impact on the lives of the poor, the sick, and the vulnerable.</p>
 			</div>		
 		</div>
 	</section>
